@@ -33,6 +33,7 @@ import (
 
 	addonsv1alpha1 "example.org/guestbook-operator/api/v1alpha1"
 	"example.org/guestbook-operator/controllers"
+	"sigs.k8s.io/kubebuilder-declarative-pattern/pkg/patterns/addon"
 	//+kubebuilder:scaffold:imports
 )
 
@@ -64,6 +65,7 @@ func main() {
 	flag.Parse()
 
 	ctrl.SetLogger(zap.New(zap.UseFlagOptions(&opts)))
+	addon.Init()
 
 	mgr, err := ctrl.NewManager(ctrl.GetConfigOrDie(), ctrl.Options{
 		Scheme:                 scheme,
