@@ -1,0 +1,7 @@
+domain: example.org
+layout:
+- go.kubebuilder.io/v3
+- declarative.go.kubebuilder.io/v1
+projectName: guestbook-operator
+repo: example.org/guestbook-operator
+version: "3"
