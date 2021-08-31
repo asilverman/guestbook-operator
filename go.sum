@@ -393,6 +393,8 @@ github.com/jstemmer/go-junit-report v0.9.1/go.mod h1:Brl9GWCQeLvo8nXZwPNNblvFj/X
 github.com/jtolds/gls v4.20.0+incompatible/go.mod h1:QJZ7F/aHp+rZTRtaJ1ow/lLfFfVYBRgL+9YlvaHOwJU=
 github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
 github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=
+github.com/justinsb/kubebuilder-declarative-pattern v0.0.0-20210828213032-a3bf49dd2dce h1:0YIZKQWpM31a9kfpWugOO6GV0jzx3ViqTxUkXeZ2bVY=
+github.com/justinsb/kubebuilder-declarative-pattern v0.0.0-20210828213032-a3bf49dd2dce/go.mod h1:5JDAtsXR95d1673OTpFnewpIVmgZEDO/mM3hLW2rRqI=
 github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd h1:Coekwdh0v2wtGp9Gmz1Ze3eVRAWJMLokvN3QjdzCHLY=
 github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd/go.mod h1:CT57kijsi8u/K/BOFA39wgDQJ9CxiF4nAY/ojJ6r6mM=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
@@ -1067,8 +1069,6 @@ sigs.k8s.io/cli-utils v0.16.0/go.mod h1:9Jqm9K2W6ShhCxsEuaz6HSRKKOXigPUx3ZfypGgx
 sigs.k8s.io/controller-runtime v0.4.0/go.mod h1:ApC79lpY3PHW9xj/w9pj+lYkLgwAAUZwfXkME1Lajns=
 sigs.k8s.io/controller-runtime v0.9.0 h1:ZIZ/dtpboPSbZYY7uUz2OzrkaBTOThx2yekLtpGB+zY=
 sigs.k8s.io/controller-runtime v0.9.0/go.mod h1:TgkfvrhhEw3PlI0BRL/5xM+89y3/yc0ZDfdbTl84si8=
-sigs.k8s.io/kubebuilder-declarative-pattern v0.0.0-20210827061059-0e495569c3aa h1:bryxXLc+Z5LOVkP447cVw2QXQiRuZPLpVp4t6GdqiNA=
-sigs.k8s.io/kubebuilder-declarative-pattern v0.0.0-20210827061059-0e495569c3aa/go.mod h1:5JDAtsXR95d1673OTpFnewpIVmgZEDO/mM3hLW2rRqI=
 sigs.k8s.io/kustomize v2.0.3+incompatible h1:JUufWFNlI44MdtnjUqVnvh29rR37PQFzPbLXqhyOyX0=
 sigs.k8s.io/kustomize v2.0.3+incompatible/go.mod h1:MkjgH3RdOWrievjo6c9T245dYlB5QeXV4WCbnt/PEpU=
 sigs.k8s.io/kustomize/api v0.8.8 h1:G2z6JPSSjtWWgMeWSoHdXqyftJNmMmyxXpwENGoOtGE=

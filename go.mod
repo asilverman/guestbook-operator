@@ -11,3 +11,5 @@ require (
 	sigs.k8s.io/controller-runtime v0.9.0
 	sigs.k8s.io/kubebuilder-declarative-pattern v0.0.0-20210827061059-0e495569c3aa
 )
+
+replace sigs.k8s.io/kubebuilder-declarative-pattern v0.0.0-20210827061059-0e495569c3aa => github.com/justinsb/kubebuilder-declarative-pattern v0.0.0-20210828213032-a3bf49dd2dce
